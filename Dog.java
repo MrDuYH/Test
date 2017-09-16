@@ -13,7 +13,9 @@ public class Dog {
         this.jump();
         System.out.println("run\n");
     }
-
+    public void doSomething(){
+	System.out.println("dosth");
+    }	
     public Dog(){
         super();
         System.out.println("create dog");
