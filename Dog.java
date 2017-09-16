@@ -1,4 +1,4 @@
-package Basic;
+﻿package Basic;
 
 /**
  * this，可以省略
@@ -6,8 +6,8 @@ package Basic;
 public class Dog {
     String name;
     double weight;
-    public void jump(){
-        System.out.println("jump\n");
+    public void fly(){
+        System.out.println("fly\n");
     }
     public void run(){
         this.jump();
